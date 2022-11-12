@@ -3,10 +3,10 @@ import { FaGithub, FaLinkedin, FaChrome } from 'react-icons/fa'
 
 const About = () => {
     return (
-        <div className='container p-12'>
+        <div className='container p-6 md:p-12'>
             <h1 className='text-center text-4xl'>About me</h1>
             <div className='mx-auto text-lg md:w-[800px]'>
-                <p className='text-lg my-9 px-6 md:px-0'>I am Juhayer Aiaz a passionate web developer. I have completed a Diploma in CSE(4 years). I have expertise in advanced HTML & CSS, CSS frameworks, SASS, JavaScript, React, MongoDB, Express js, Node.Js, JWT. I am confident enough that I can make a good contribution and impact in this sector.</p>
+                <p className='text-lg my-9'>I am Juhayer Aiaz a passionate web developer. I have completed a Diploma in CSE(4 years). I have expertise in advanced HTML & CSS, CSS frameworks, SASS, JavaScript, React, MongoDB, Express js, Node.Js, JWT. I am confident enough that I can make a good contribution and impact in this sector.</p>
                 <p className='text-xl font-semibold my-2'>Name: <span className='text-[#979c62] ml-3'>Juhayer Aiaz</span></p>
                 <p className='text-xl font-semibold my-2'>Email: <span className='text-[#979c62] ml-3'>aiaz97@gmail.com</span></p>
                 <p className='text-xl font-semibold my-2'>Phone: <span className='text-[#979c62] ml-3'>+8801302311163</span></p>
