@@ -4,6 +4,8 @@ import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import Footer from './Components/Footer/Footer';
 import NotFound from './Components/NotFound/NotFound';
+import Posts from './Components/Home/Posts';
+import PostDetail from './Components/Home/PostDetail';
 
 function App() {
   return (
@@ -11,9 +13,8 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/blog" element>
-          <Route path=":id" element />
-        </Route>
+        <Route path="/posts" element={<Posts />} />
+        <Route path="/posts/:id" element={<PostDetail />} />
         <Route path="/about" element />
         <Route path="*" element={<NotFound />} />
       </Routes>
